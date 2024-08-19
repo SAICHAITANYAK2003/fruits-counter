@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.main-container {
+  background-color: #ffd569;
+  height: 100vh;
+  padding: 70px;
+}
+.heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 50px;
+}
+.banana-count {
+  margin-left: 10px;
+  color: #ffd569;
+}
+.mango-count {
+  margin-left: 10px;
+  color: #ffd569;
+}
+.fruits-container {
+  background-color: #ffffff;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+}
+.fruits-data-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  height: 60vh;
+}
+
+.fruit-mango {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.fruit-banana {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.image {
+  height: 300px;
+}
+.mango-btn {
+  margin-top: 30px;
+  height: 40px;
+  width: 110px;
+  border-width: 0px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.banana-btn {
+  margin-top: 50px;
+  height: 40px;
+  width: 110px;
+  border-width: 0px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
